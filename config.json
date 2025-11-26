@@ -1,0 +1,43 @@
+{
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "asm": true,
+        "yield": true,
+        "priority": null
+    },
+
+    "randomx": {
+        "mode": "auto",
+        "1gb-pages": false,
+        "numa": true
+    },
+
+    "opencl": {
+        "enabled": false
+    },
+
+    "cuda": {
+        "enabled": false
+    },
+
+    "donate-level": 0,
+    "donate-over-proxy": 0,
+
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": "monero",
+            "url": "pool.supportxmr.com:3333",
+            "user": "83Y3FMLKijkVsPvCgGSQzWWexg6Bf9dyqZz5wZ1CYdxXPxZmjN5uo6ZjHZYNeVA9pCYZgSkFSV5PuRy6c8H129KjHrFhPH1",
+            "pass": "x",
+            "nicehash": false,
+            "enabled": true,
+            "keepalive": true,
+            "tls": false
+        }
+    ],
+
+    "print-time": 60
+}
